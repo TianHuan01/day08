@@ -2,7 +2,7 @@ import allure
 import pytest
 
 
-class Test02:
+class Test01:
     @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)
     @allure.step(title="执行登录")
     def test01(self):

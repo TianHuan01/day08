@@ -1,0 +1,30 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1571900875013" stop="1571900875041">
+  <name>test02</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1571900875013" status="failed" stop="1571900875041">
+      <name>Test01.test05</name>
+      <failure>
+        <message>FileNotFoundError: [Errno 2] No such file or directory: './image/err.png'</message>
+        <stack-trace>self = &lt;test02.Test01 object at 0x057E41B0&gt;
+
+    def test05(self):
+        # 失败截图
+        #allure.attach("失败原因：",图片流,图片类型)
+&gt;       with open("./image/err.png","rb") as f:
+E       FileNotFoundError: [Errno 2] No such file or directory: './image/err.png'
+
+test02.py:32: FileNotFoundError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="11912-MainThread"/>
+        <label name="host" value="WIN-SEBC72BGI1D"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

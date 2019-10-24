@@ -1,12 +1,12 @@
-<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1571736028285" stop="1571736028410">
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1571900990544" stop="1571900990577">
   <name>test02</name>
   <labels/>
   <test-cases>
-    <test-case start="1571736028285" status="failed" stop="1571736028380">
-      <name>Test02.test01</name>
+    <test-case start="1571900990544" status="failed" stop="1571900990566">
+      <name>Test01.test01</name>
       <failure>
         <message>AssertionError: assert 0</message>
-        <stack-trace>self = &lt;test02.Test02 object at 0x033BBE50&gt;
+        <stack-trace>self = &lt;test02.Test01 object at 0x06623990&gt;
 
     @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)
     @allure.step(title="执行登录")
@@ -19,13 +19,13 @@ scripts\test02.py:9: AssertionError</stack-trace>
       <attachments/>
       <labels>
         <label name="severity" value="blocker"/>
-        <label name="thread" value="8452-MainThread"/>
-        <label name="host" value="MS-20180906QJYH"/>
+        <label name="thread" value="7136-MainThread"/>
+        <label name="host" value="WIN-SEBC72BGI1D"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps>
-        <step start="1571736028289" status="failed" stop="1571736028290">
+        <step start="1571900990545" status="failed" stop="1571900990546">
           <name>执行登录</name>
           <title>执行登录</title>
           <attachments/>
@@ -33,46 +33,46 @@ scripts\test02.py:9: AssertionError</stack-trace>
         </step>
       </steps>
     </test-case>
-    <test-case start="1571736028383" status="passed" stop="1571736028385">
-      <name>Test02.test02</name>
+    <test-case start="1571900990567" status="passed" stop="1571900990568">
+      <name>Test01.test02</name>
       <attachments/>
       <labels>
         <label name="severity" value="minor"/>
-        <label name="thread" value="8452-MainThread"/>
-        <label name="host" value="MS-20180906QJYH"/>
+        <label name="thread" value="7136-MainThread"/>
+        <label name="host" value="WIN-SEBC72BGI1D"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps>
-        <step start="1571736028385" status="passed" stop="1571736028385">
+        <step start="1571900990568" status="passed" stop="1571900990568">
           <name>执行退出登录</name>
           <title>执行退出登录</title>
           <attachments>
-            <attachment source="ca2e0e7d-9fa9-4982-9138-300f59bbb2ff-attachment.txt" title="失败原因：" type="text/plain"/>
+            <attachment source="b0f312b8-fc10-49e6-8e68-1914acda1942-attachment.txt" title="失败原因：" type="text/plain"/>
           </attachments>
           <steps/>
         </step>
       </steps>
     </test-case>
-    <test-case start="1571736028397" status="passed" stop="1571736028399">
-      <name>Test02.test03</name>
+    <test-case start="1571900990570" status="passed" stop="1571900990570">
+      <name>Test01.test03</name>
       <attachments>
-        <attachment source="d383761a-a15a-403a-b766-03bdf920501f-attachment.txt" title="失败原因：" type="text/plain"/>
+        <attachment source="68a77aac-5ac5-4dc6-a092-a790bc50746a-attachment.txt" title="失败原因：" type="text/plain"/>
       </attachments>
       <labels>
         <label name="severity" value="critical"/>
-        <label name="thread" value="8452-MainThread"/>
-        <label name="host" value="MS-20180906QJYH"/>
+        <label name="thread" value="7136-MainThread"/>
+        <label name="host" value="WIN-SEBC72BGI1D"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1571736028402" status="failed" stop="1571736028407">
-      <name>Test02.test04</name>
+    <test-case start="1571900990572" status="failed" stop="1571900990574">
+      <name>Test01.test04</name>
       <failure>
         <message>AssertionError: assert 0</message>
-        <stack-trace>self = &lt;test02.Test02 object at 0x0380F0F0&gt;
+        <stack-trace>self = &lt;test02.Test01 object at 0x06679190&gt;
 
     @pytest.allure.severity(pytest.allure.severity_level.TRIVIAL)
     def test04(self):
@@ -84,22 +84,22 @@ scripts\test02.py:26: AssertionError</stack-trace>
       <attachments/>
       <labels>
         <label name="severity" value="trivial"/>
-        <label name="thread" value="8452-MainThread"/>
-        <label name="host" value="MS-20180906QJYH"/>
+        <label name="thread" value="7136-MainThread"/>
+        <label name="host" value="WIN-SEBC72BGI1D"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1571736028408" status="passed" stop="1571736028410">
-      <name>Test02.test05</name>
+    <test-case start="1571900990576" status="passed" stop="1571900990577">
+      <name>Test01.test05</name>
       <attachments>
-        <attachment source="28267d75-6858-467b-80fe-dabbdeb8bb48-attachment.png" title="失败原因：" type="image/png"/>
+        <attachment source="c44bc2c8-c1f6-44a1-8394-22b7977f4511-attachment.png" title="失败原因：" type="image/png"/>
       </attachments>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="8452-MainThread"/>
-        <label name="host" value="MS-20180906QJYH"/>
+        <label name="thread" value="7136-MainThread"/>
+        <label name="host" value="WIN-SEBC72BGI1D"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
